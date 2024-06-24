@@ -1,0 +1,5 @@
+.chart-bar {
+    -fx-bar-fill: #4CAF50; /* You can change the color as needed */
+    -fx-min-width: 2px; /* Minimum width for the bars */
+    -fx-max-width: 4px; /* Maximum width for the bars */
+}

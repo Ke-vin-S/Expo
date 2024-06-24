@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="New.WinnersChartController">
+    <BarChart fx:id="barChart" animated="false" categoryGap="1.0">
+        <xAxis>
+            <CategoryAxis label="Project" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" label="Points" />
+        </yAxis>
+    </BarChart>
+</VBox>

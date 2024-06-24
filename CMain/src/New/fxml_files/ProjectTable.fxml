@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="New.Controllers.ProjectTableController">
+    <children>
+        <VBox layoutX="13.0" layoutY="13.0" spacing="10" AnchorPane.bottomAnchor="13" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13" AnchorPane.topAnchor="13.0">
+            <children>
+                <TableView fx:id="projectTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="idColumn" text="ID" />
+                        <TableColumn fx:id="logoColumn" text="Logo" />
+                        <TableColumn fx:id="nameColumn" text="Name" />
+                        <TableColumn fx:id="categoryColumn" text="Category" />
+                        <TableColumn fx:id="membersColumn" text="Members" />
+                        <TableColumn fx:id="descriptionColumn" text="Description" />
+                        <TableColumn fx:id="countryColumn" text="Country" />
+                        <TableColumn fx:id="updateColumn" text="Update" />
+                        <TableColumn fx:id="deleteColumn" text="Delete" />
+                    </columns>
+                </TableView>
+                <HBox alignment="CENTER_RIGHT">
+                    <children>
+                  <AnchorPane prefHeight="26.0" prefWidth="704.0">
+                     <children>
+                         <Button layoutX="313.0" onAction="#handleAddButtonAction" prefHeight="26.0" prefWidth="79.0" text="Add Project" />
+                         <Button layoutX="406.0" onAction="#handleSaveButtonAction" prefHeight="26.0" prefWidth="65.0" text="Save" />
+                        <Button layoutX="483.0" layoutY="1.0" onAction="#handleSpotlightButtonAction" prefHeight="26.0" prefWidth="79.0" text="Spotlight" />
+                     </children>
+                  </AnchorPane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

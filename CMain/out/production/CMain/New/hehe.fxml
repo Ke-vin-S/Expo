@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="">
+   <children>
+      <ComboBox layoutX="31.0" layoutY="147.0" prefWidth="150.0" />
+      <ToggleButton layoutX="242.0" layoutY="135.0" mnemonicParsing="false" text="ToggleButton" />
+      <TreeView layoutX="21.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0" />
+      <Spinner layoutX="346.0" layoutY="241.0" prefHeight="26.0" prefWidth="53.0" />
+      <StackedBarChart layoutX="21.0" layoutY="-14.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </StackedBarChart>
+   </children>
+</AnchorPane>
